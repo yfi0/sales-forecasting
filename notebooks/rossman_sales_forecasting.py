@@ -34,7 +34,7 @@ import datetime
 Reading data from CSV file
 """
 
-sales_train_df = pd.read_csv('/content/data.csv')
+sales_train_df = pd.read_csv('../src/data/data.csv')
 
 sales_train_df.shape
 
@@ -75,7 +75,7 @@ sales_train_df.info()
 
 sales_train_df.describe()
 
-store_info_df = pd.read_csv('/content/store.csv')
+store_info_df = pd.read_csv('../src/data/store.csv')
 
 store_info_df.shape
 
